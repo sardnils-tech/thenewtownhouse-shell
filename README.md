@@ -26,3 +26,7 @@ Use run-scripts to manage local development and deployment:
 - `npm run build` – Compile your code into the `dist/` folder  
 - `npm run lint` – Validate your code against eslint frontmatter  
 - `npm run preview` – Serve the build folder locally before deploying
+## 🌐 Live Demo
+
+Check out the deployed shell on Vercel:  
+👉 [thenewtownhouse-shell.vercel.app](https://thenewtownhouse-shell.vercel.app)
