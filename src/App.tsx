@@ -1,10 +1,13 @@
 import React from 'react';
 
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-900 text-white">
-      <h1 className="text-4xl">React + Vite + Tailwind CSS</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
   );
 }
 
